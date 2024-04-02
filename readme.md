@@ -256,6 +256,42 @@ This research highlights the significant potential of incorporating domain-speci
 - Rogers, A., et al. (2020). *A primer in BERTology: What we know about how BERT works*.
 
 *This literature review synthesizes key points from "Infusing Disease Knowledge into BERT for Health Question Answering, Medical Inference, and Disease Name Recognition" by Yun He et al., emphasizing the advancement in biomedical NLP tasks.*
+
+
+
+#### MedConQA: Medical Conversational Question Answering System
+
+#### Overview
+The paper presented at the 2022 Conference on Empirical Methods in Natural Language Processing: System Demonstrations introduces an advanced conversational QA system tailored for medical triage, diagnosis confirmation, and treatment recommendations. This demonstration highlights the integration of medical entity recognition, entity disambiguation, and entity knowledge reasoning within a dialogue system, aiming to streamline the patient-doctor interaction process.
+
+- **Authors:** Fei Xia, bin Li, Yixuan Weng, Shizhu He, Kang Liu, Bin Sun, Shutao Li, Jun Zhao
+- **Affiliations:** School of Artificial Intelligence, University of Chinease Acamedy of Sciences; College of Electrical & Information Engineering, Hunan University
+- **Published In:** Proceedings of the 2022 Conference on Empirical Methods in Natural Language Processing: System Demonstrations
+- **Paper Link:** [https://aclanthology.org/2022.emnlp-demos.15.pdf](https://aclanthology.org/2022.emnlp-demos.15.pdf)
+
+#### Key Contributions
+1. **Advanced Conversational QA System:** Showcases a sophisticated QA system designed for medical consultations, enhancing the efficiency and accuracy of patient care.
+2. **Entity Knowledge Integration:** Implements a robust framework for 
+- medical entity recognition, 
+- disambiguation, and 
+- knowledge reasoning, facilitating precise medical advice.
+
+3. **Interactive Dialogue Generation:** Employs state-of-the-art NLP techniques to generate interactive and contextual dialogues between patients and the medical QA system.
+
+#### Methodology
+#### Entity Knowledge Reasoning and Dialogue Generation
+- The system incorporates entity flow and text flow mechanisms to process medical dialogue history, employing algorithms for symptom selection and generating contextual responses.
+<img src="figures/paper-2-methodology.png">
+- Uses a Bi-directional Encoder and Prefix Autoregressive Decoder for generating medical consultations that accurately address patient queries and symptoms.
+
+#### Results
+- The conversational medical QA system demonstrates high levels of fluency and correctness in generating dialogue, as assessed by medical professionals.
+<img src="figures/paper-2-evaluation.png">
+- Statistical evaluation of dialogues shows strong patient satisfaction and accuracy in symptom identification and drug recommendations.
+
+#### Impact, Limitation & Future Work
+The research opens new avenues for applying conversational AI in healthcare, offering a scalable solution for medical consultations. Future work will focus on expanding the system's medical knowledge base and improving its adaptability to diverse medical scenarios.
+
 ---
 
 ### Sai Haneesha Bestha
