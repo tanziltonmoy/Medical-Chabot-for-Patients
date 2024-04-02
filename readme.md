@@ -135,7 +135,10 @@ Application website: https://www.chunyuyisheng.com/pc/doctor/clinic_web_a8d7e183
 The paper focuses on evaluating the effectiveness of two presentation methods, namely the sentence-based approach and the passage-based approach, within an online clinical question answering system called AskHERMES. The goal is to determine which approach provides better context and coherence for answering clinical questions. The introduction highlights the importance of efficiently presenting answers to meet the information needs of users, particularly in the biomedical field where questions are often complex and require comprehensive responses. The background section provides insight into the challenges faced by existing search engines and question answering systems, emphasizing the need for more adaptable and comprehensive approaches, especially in the biomedical domain.
 The passage-based approach, which returns ranked passages instead of sentences, is proposed as a potential solution to provide richer context and improve the relevance of answers. The evaluation design outlines the criteria for assessing the effectiveness of both approaches, including the handling of hard and failed questions.The evaluation results indicate that while the sentence-based approach may work well for simple questions, the passage-based approach generally offers richer context and coherence, making it more effective for complex clinical queries. However, limitations are identified, particularly regarding semantic boundaries and passage length.Overall, the research underscores the importance of context in enhancing answer quality for complex clinical queries and highlights the potential of the passage-based approach in addressing these challenges.
 
+---
+
 ### Ashmita Phuyal
+
 #### Incorporating Medical Knowledge in BERT for Clinical Relation Extraction
 - **Link:** [https://aclanthology.org/2021.emnlp-main.435/](https://aclanthology.org/2021.emnlp-main.435/)
 - **Summary:** The research paper explores enhancing pre-trained language models like BERT for clinical relation extraction by incorporating medical knowledge. It addresses the challenge of adapting general-domain models to domain-specific tasks, such as extracting clinical relations, which require additional medical understanding. By integrating medical knowledge into BERT, the researchers achieved superior performance on the i2b2/VA 2010 clinical relation extraction dataset, surpassing existing systems. The study focuses on optimizing BERT for clinical tasks by infusing medical knowledge, showcasing improved performance in specific clinical applications.
@@ -145,8 +148,9 @@ The passage-based approach, which returns ranked passages instead of sentences, 
 - **Link:** [https://aclanthology.org/2020.emnlp-main.372/](https://aclanthology.org/2020.emnlp-main.372/)
 - **Summary:** The research paper titled "Infusing Disease Knowledge into BERT for Health Question Answering, Medical Inference, and Disease Name Recognition" explores enhancing pre-trained language models like BERT with disease-specific knowledge to improve health-related and biomedical tasks. The study integrates BERT with disease knowledge to enhance tasks such as consumer health question answering, medical language inference, and disease name recognition. By proposing a new disease knowledge infusion training procedure and evaluating it across various BERT models like BioBERT, SciBERT, ClinicalBERT, BlueBERT, and ALBERT, the researchers demonstrated significant improvements in model performance. For example, BioBERT's accuracy in consumer health question answering increased from 68.29% to 72.09%, with new state-of-the-art results achieved in two datasets. The study was presented at the 2020 Conference on Empirical Methods in Natural Language Processing and published by the Association for Computational Linguistics
 
-
+---
 ### Tanzil Al Sabah
+
 #### How You Ask Matters: The Effect of Paraphrastic Questions to BERT Performance on a Clinical SQuAD Dataset
 - **Link:** [https://aclanthology.org/2020.clinicalnlp-1.13.pdf](https://aclanthology.org/2020.clinicalnlp-1.13.pdf)
 - **Summary:** This paper explores the significant impact that paraphrastic questioning has on the performance of BERT in clinical question-answering tasks. By delving into how the phrasing of questions affects BERT's ability to deliver accurate responses, the research highlights the necessity of diverse question phrasing in improving NLP model efficacy in the medical field.
@@ -164,7 +168,6 @@ The passage-based approach, which returns ranked passages instead of sentences, 
 - **Future Research Directions**: Encourages additional research into training techniques or models that more effectively accommodate paraphrastic variations in language.
 
 This research underscores the pivotal role of question paraphrasing in the success of NLP models for clinical question answering. It provides valuable insights for advancing the development of clinical decision support tools that are both responsive and reliable.
-
 
 
 #### Answering Clinical Questions with Role Identification
@@ -200,6 +203,7 @@ The work in progress reported in this paper analyzes the limitations of GQA tech
 
 The EPoCare project is supported by grants from Bell University Laboratories at the University of Toronto and the Natural Sciences and Engineering Research Council of Canada.
 
+---
 
 ### Md Shafi Ud Doula
 #### Infusing Disease Knowledge into BERT for Health Question Answering, Medical Inference, and Disease Name Recognition
@@ -213,7 +217,6 @@ In "Infusing Disease Knowledge into BERT for Health Question Answering, Medical 
 **Published In:** Proceedings of the 2020 Conference on Empirical Methods in Natural Language Processing (EMNLP 2020)  
 **Paper Link:** [Infusing Disease Knowledge into BERT](https://aclanthology.org/2020.emnlp-main.372.pdf)
 
----
 
 #### Key Contributions
 
@@ -223,7 +226,6 @@ In "Infusing Disease Knowledge into BERT for Health Question Answering, Medical 
 
 3. **Significant Performance Gains:** Showcases notable improvements in accuracy and establishes new benchmarks in tasks such as consumer health question answering, medical language inference, and disease name recognition.
 
----
 
 #### Methodology
 
@@ -233,7 +235,6 @@ In "Infusing Disease Knowledge into BERT for Health Question Answering, Medical 
 <img src="figures/Trainging-infusing.png">
 - **Leveraging Wikipedia for Weak Supervision:** Employs Wikipedia's structured data as a source for weakly-supervised learning, capitalizing on its vast repository of disease information.
 
----
 
 #### Results
 
@@ -241,13 +242,11 @@ In "Infusing Disease Knowledge into BERT for Health Question Answering, Medical 
 <img src="figures/evaluation.png">
 - **Across-the-Board Improvements:** Consistent performance boosts across various models and tasks validate the effectiveness of the proposed infusion technique.
 
----
 
 #### Impact and Future Work
 
 This research highlights the significant potential of incorporating domain-specific knowledge into language models for biomedical applications. It paves the way for future studies focused on refining knowledge infusion methods and exploring their broader applicability.
 
----
 
 #### References
 
@@ -256,7 +255,7 @@ This research highlights the significant potential of incorporating domain-speci
 - Rogers, A., et al. (2020). *A primer in BERTology: What we know about how BERT works*.
 
 *This literature review synthesizes key points from "Infusing Disease Knowledge into BERT for Health Question Answering, Medical Inference, and Disease Name Recognition" by Yun He et al., emphasizing the advancement in biomedical NLP tasks.*
-
+---
 
 ### Sai Haneesha Bestha
 #### Recognizing Question Entailment (RQE) and Natural Language Inference (NLI) methods
