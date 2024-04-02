@@ -56,6 +56,7 @@ This project will serve as a practical application of the concepts studied in th
 - Research carried out to determine which factors affects the accuracy of the model performance
 
 ## System Architecture (Framework)
+<img src="image/SystemArchitecture.png"> 
 
 ## Experimental Design (Methodology)
 ### Data Collection and Preprocessing
