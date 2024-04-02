@@ -3,7 +3,7 @@
 This repository details the development of a Medical Chatbot designed to provide patients with personalized and immediate access to medical information and services, utilizing AI and NLP techniques.
 
 ## Contents
-- [Introduction to Team Members](#introduction-to-team-members)
+- [Team Members](#team-members)
 - [Introduction](#introduction)
 - [Problem Statement](#problem-statement)
 - [Motivation](#motivation)
@@ -20,7 +20,7 @@ This repository details the development of a Medical Chatbot designed to provide
 - [Dataset Information](#dataset-information)
 - [Paper Summary by Team Members](#paper-summary-by-team-members)
 
-## Introduction to Team Members
+## Team Members
 - Sonu Adhikari – st124409
 - Ashmita Phuyal – st124454
 - Sai Haneesha Bestha – st124089
