@@ -66,16 +66,29 @@ This project will serve as a practical application of the concepts studied in th
 - Preprocessing Steps: Perform tokenization, numericalization, and data cleansing to ensure high-quality input data.
 
 ### Model Development
-- Model Selection and Training: Utilize NLP models such as biLSTM, BERT, and RAG models. Focus on domain-specific models like ClinicalBERT for nuanced medical understanding. Integrate advanced NLP techniques like contrastive learning for performance optimization.
+- Model Selection and Training: Used  models such as Seq2Seq,T5,Bert,GPT2 models for better performance.
+- Integrate advanced NLP techniques like validation and perplexity,adaptation validation seq2seq for high quality performance.
+
 
 ### Implementation and Testing
-- Paraphrase Generation: Deploy LSTM or comparable models for diverse paraphrase generation. Employ a dual-focus training strategy encompassing both broad and medical-specific language datasets.
+- After finalizing the better performing model ,utilize it for modeling.
+- We have also Fine-tuned the model on medical question-answering (QA) data with GPT2 model.
 
-### Evaluation
-- Metrics: Use BLEU, ROGUE, MRR, and model-based metrics like BERTScore for a multidimensional evaluation of paraphrases. Extend evaluation to precision, recall, and F1-score for a robust assessment of medical advice relevance and accuracy.
+
+### Evaluation (Future Task)
+- Metrics: Use BLEU, ROGUE, MRR, and model-based metrics like BERTScore for a multidimensional evaluation of paraphrases. 
+- Extend evaluation to precision, recall, and F1-score for a robust assessment of medical advice relevance and accuracy.
 
 ### Deployment
-- Web Application Integration: Develop the backend with Flask and craft a user-friendly frontend with HTML, CSS, and JavaScript, ensuring the chatbot is accessible and easy to navigate.
+- Web Application Integration: Develop an user-friendly web application using Dash/Flask, ensuring the chatbot is accessible and easy to navigate.
+
+
+<img src="image/app1.png"> 
+
+<img src="image/app2.png"> 
+
+
+
 
 ## Project Management
 ### Task Distribution
