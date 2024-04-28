@@ -148,7 +148,20 @@ Both models were trained using these hyperparameters to optimize their performan
 - Extend evaluation to precision, recall, and F1-score for a robust assessment of medical advice relevance and accuracy.
 
 5. Result
-- Web Application Integration: Develop an user-friendly web application using Dash/Flask, ensuring the chatbot is accessible and easy to navigate.
+
+From comparing the results between the GPT-2 and Seq2Seq models using various evaluation metrics, including BLEU, ROUGE, precision, recall, and F1-score, we observed the following outcomes:
+
+##### GPT-2 Model:
+- Achieved better scores across multiple evaluation metrics.
+- Demonstrated decent performance overall.
+- Showed relatively poor human evaluation results compared to the automated metrics, indicating a potential discrepancy between machine-generated responses and human perception.
+
+##### Seq2Seq Model:
+- Displayed a decent performance but was outperformed by the GPT-2 model in most evaluation metrics.
+- While it produced acceptable results, it did not achieve the same level of effectiveness as the GPT-2 model.
+- Human evaluation revealed lower satisfaction compared to the GPT-2 model, suggesting limitations in generating relevant and accurate medical advice.
+
+Overall, the GPT-2 model exhibited better performance across various evaluation metrics, indicating its superiority in generating paraphrases and providing medical advice with higher relevance and accuracy. The Seq2Seq model, while performing decently, fell short in comparison to the GPT-2 model, particularly in terms of human evaluation and certain automated metrics.
 
 
 <img src="image/app1.png">
