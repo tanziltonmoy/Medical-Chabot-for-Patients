@@ -72,6 +72,8 @@ Features: Ada Health is an AI-driven health assessment platform that offers pers
 Objectives: The main objective of Ada Health is to democratize access to healthcare by leveraging AI technology to deliver comprehensive and reliable health assessments and recommendations to users worldwide. It aims to augment healthcare services, improve health literacy, and promote early intervention and prevention of diseases.
 NLP Architecture: Ada Health utilizes a sophisticated NLP architecture consisting of deep learning models, probabilistic algorithms, and medical knowledge bases. It employs techniques like natural language understanding (NLU), sentiment analysis, and probabilistic reasoning to interpret user input, generate hypotheses, and provide personalized health insights. The architecture may incorporate pretrained language models, medical ontologies, and domain-specific knowledge graphs to enhance accuracy and relevance.
 
+## Gap Between Related Work
+
 ## Solution Requirements
 - Advanced NLP for enhanced user query understanding and response accuracy
 - Comprehensive medical knowledge base for up-to-date information
