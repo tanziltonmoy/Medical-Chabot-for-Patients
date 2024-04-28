@@ -98,7 +98,7 @@ We have used the MedQuad dataset from :
 
 - HuggingFace Dataset: [https://huggingface.co/datasets/Amirkid/MedQuad-dataset](https://huggingface.co/datasets/Amirkid/MedQuad-dataset)
 - Github Dataset: [https://github.com/abachaa/MedQuAD?tab=readme-ov-file](https://github.com/abachaa/MedQuAD?tab=readme-ov-file)
-- 
+  
 ## Methodology
 1. Data Collection and Preprocessing
 
