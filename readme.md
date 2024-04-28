@@ -171,10 +171,6 @@ Overall, the GPT-2 model exhibited better performance across various evaluation 
 - Allows users to ask questions, send them, and receive responses from the chatbot.
 - Messages are displayed in a visually distinct format, with user messages on the right and bot responses on the left.
    
-<img src="image/app1.png">
-
-<img src="image/app2.png">
-
 <img src="image/app3.png"> 
 
 <img src="image/app4.png"> 
