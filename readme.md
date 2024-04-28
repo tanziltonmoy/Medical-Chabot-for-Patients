@@ -164,6 +164,8 @@ From comparing the results between the GPT-2 and Seq2Seq models using various ev
 Overall, the GPT-2 model exhibited better performance across various evaluation metrics, indicating its superiority in generating paraphrases and providing medical advice with higher relevance and accuracy. The Seq2Seq model, while performing decently, fell short in comparison to the GPT-2 model, particularly in terms of human evaluation and certain automated metrics.
 
 
+6. ChatBot Response Examples
+   
 <img src="image/app1.png">
 
 <img src="image/app2.png">
