@@ -89,7 +89,9 @@ In contrast, our medical chatbot for patients is designed to fill this crucial g
 - Research carried out to determine which factors affects the accuracy of the model performance
 
 ## System Architecture (Framework)
-<img src="image/SystemArchitecture.png"> 
+
+<img width="1335" alt="Screenshot 2024-04-29 at 01 22 27" src="https://github.com/tanziltonmoy/Medical-Chatbot-for-Patients/assets/32629216/d191248e-ac26-4960-8b66-9ba5f2f2021e">
+
 
 ## Experimental Design (Methodology)
 ### Data Collection and Preprocessing
