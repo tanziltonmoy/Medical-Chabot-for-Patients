@@ -124,20 +124,20 @@ We conducted experiments to train and fine-tune two models, namely GPT-2 and Seq
 a. GPT-2 Model:
 - Training Data: We utilized a dataset consisting of 143,250 samples for training the GPT-2 model.
 - Fine-tuning: The GPT-2 model was fine-tuned on medical QA data to adapt it specifically for medical-related inquiries.
-- Hyperparameters for Fine-Tuning:
-            Evaluation Strategy: Epoch-based evaluation.
-            Learning Rate: 2e-5
-            Weight Decay: 0.01
-            Number of Training Epochs: 3
+Hyperparameters for Fine-Tuning:
+-Evaluation Strategy: Epoch-based evaluation.
+Learning Rate: 2e-5
+Weight Decay: 0.01
+Number of Training Epochs: 3
 b. Seq2Seq Model:
 -Training Data: Similar to the GPT-2 model, we used the same dataset containing 143,250 samples for training the Seq2Seq model.
 Hyperparameters:
-            Hidden Layers: 512
-            Number of Iterations: 15,000
-            Teacher Forcing Ratio: 0.5
-            Learning Rate Encoder: 0.0001
-            Learning Rate Decoder: 0.0005
-            Optimizer: Adam Optimizer
+- Hidden Layers: 512
+- Number of Iterations: 15,000
+- Teacher Forcing Ratio: 0.5
+- Learning Rate Encoder: 0.0001
+- Learning Rate Decoder: 0.0005
+- Optimizer: Adam Optimizer
 
 Both models were trained using these hyperparameters to optimize their performance for medical question-answering tasks. The choice of hyperparameters was based on experimentation and empirical observations to achieve a balance between model complexity, training efficiency, and task-specific requirements. Additionally, the evaluation strategy for both models involved monitoring performance metrics such as accuracy, loss, and convergence over the specified number of training epochs.
 
