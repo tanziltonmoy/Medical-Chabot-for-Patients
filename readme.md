@@ -151,9 +151,9 @@ Both models were trained using these hyperparameters to optimize their performan
 - Web Application Integration: Develop an user-friendly web application using Dash/Flask, ensuring the chatbot is accessible and easy to navigate.
 
 
-<img src="image/app1.png"> 
+<img src="image/app3.png"> 
 
-<img src="image/app2.png"> 
+<img src="image/app4.png"> 
 
 
 
