@@ -28,25 +28,30 @@ This repository details the development of a Medical Chatbot designed to provide
 - Tanzil Al Sabah – st123845
 
 ## Introduction
+
+### Project Background
 Medical chatbots, powered by AI technology, provide personalized and convenient access to medical information and services, acting as virtual assistants for users(patients). They offer immediate responses to inquiries, guidance on health issues and medication management. This chatbot utilizes NLP techniques and vast medical data to enhance precision, empower users to seek accurate medical advice, make informed decisions, and access reliable healthcare information efficiently.
-
-The key factors behind medical chatbots include scalability, availability, data collection, instant information provision, and cost efficiency.
-- Scalability: Efficiently handles increased demand without compromising quality
-- Availability: Provides 24/7 instant support for patients
-- Data Collection: Analyzes patient data for informed insights and personalized care
-- Instant Information: Offers rapid and accurate responses to inquiries
-- Cost Efficiency: Optimizes operations, reduces costs, and streamlines tasks
-
-## Problem Statement
-- Limited Access to Healthcare Professionals: Long wait times for appointments,overburdened healthcare systems, geographical barriers and financial constraints results in the limited access to healthcare professionals
-- Delayed Medical Attention: Lack of awareness or understanding of the seriousness of symptoms contributes to delayed medical attention, especially in case of Cancer.
-- Technological problems: Traditional chatbots were rule-based and had limited understanding of natural languages and inability to learn and adapt which resulted in limited accuracy.
 
 ## Motivation
 By addressing the challenges mentioned, the chatbot aims to achieve the following objectives:
 - Empower users to make informed decisions about their health and medical conditions, enhancing overall health literacy and promoting proactive healthcare management.
 - Provide a convenient and efficient platform for users to access medical information anytime, anywhere, facilitating timely decision-making and intervention in healthcare matters.
 This project will serve as a practical application of the concepts studied in the NLP course and reinforce our learning and showcasing the real-world relevance of the technologies and strategies employed in improving healthcare accessibility and patient outcomes.
+
+## Problems and Solutions
+
+### Problems
+- Limited Access to Healthcare Professionals: Long wait times for appointments,overburdened healthcare systems, geographical barriers and financial constraints results in the limited access to healthcare professionals
+- Delayed Medical Attention: Lack of awareness or understanding of the seriousness of symptoms contributes to delayed medical attention, especially in case of Cancer.
+- Technological problems: Traditional chatbots were rule-based and had limited understanding of natural languages and inability to learn and adapt which resulted in limited accuracy.
+
+### Solutions
+The key factors to deploy medical chatbots include scalability, availability, data collection, instant information provision, and cost efficiency.
+- Scalability: Efficiently handles increased demand without compromising quality
+- Availability: Provides 24/7 instant support for patients
+- Data Collection: Analyzes patient data for informed insights and personalized care
+- Instant Information: Offers rapid and accurate responses to inquiries
+- Cost Efficiency: Optimizes operations, reduces costs, and streamlines tasks
 
 ## Solution Requirements
 - Advanced NLP for enhanced user query understanding and response accuracy
