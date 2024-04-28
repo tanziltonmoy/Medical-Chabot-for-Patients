@@ -90,7 +90,7 @@ In contrast, our medical chatbot for patients is designed to fill this crucial g
 
 ## System Architecture (Framework)
 
-<img width="1335" alt="Screenshot 2024-04-29 at 01 22 27" src="https://github.com/tanziltonmoy/Medical-Chatbot-for-Patients/assets/32629216/d191248e-ac26-4960-8b66-9ba5f2f2021e">
+<img src="image/System_Architecture_NLP.png">
 
 ## Dataset Information
 
