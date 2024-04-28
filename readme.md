@@ -55,11 +55,15 @@ The key factors to deploy medical chatbots include scalability, availability, da
 
 ## Related Works
 
-1. Infermedica
+1. Buoy Health
 
-<img width="1081" alt="Screenshot 2024-04-28 at 22 03 12" src="https://github.com/tanziltonmoy/Medical-Chatbot-for-Patients/assets/32629216/2b1fdc4c-1e9c-44cb-94a5-cdf161912bce">
+Features: Buoy Health is a conversational AI chatbot designed to provide personalized health assessments and guidance to users. It uses natural language processing to understand users' symptoms, medical history, and concerns, and then offers tailored recommendations such as possible conditions, next steps, and self-care advice. Buoy Health aims to empower users to make informed decisions about their health and navigate the healthcare system more effectively.
+Objectives: The primary objective of Buoy Health is to improve healthcare access and outcomes by leveraging AI technology to deliver accurate and reliable health information and support to users. It aims to reduce unnecessary healthcare visits, alleviate patient anxiety, and facilitate early detection and management of medical conditions.
+NLP Architecture: Buoy Health employs a combination of NLP techniques, including rule-based systems, machine learning models, and medical knowledge graphs. It uses advanced algorithms to analyze user input, extract relevant information, and match symptoms to potential conditions. The architecture may include components such as named entity recognition (NER), intent classification, and dialogue management systems.
 
-2. 
+2. Babylon Health
+
+Babylon Health's chatbot is designed to provide comprehensive medical assistance through a conversational AI interface. The chatbot features the ability to perform symptom assessment, provide diagnoses, and offer treatment recommendations to users. It also integrates with users' electronic health records and wearable devices, allowing for a more personalized and data-driven approach to healthcare. Additionally, the chatbot offers personalized health coaching and monitoring, empowering users to take a more active role in managing their own healthcare. The key objectives of the Babylon Health chatbot are to improve access to healthcare by providing 24/7 virtual medical assistance, empower users to be more involved in their healthcare, and reduce the burden on healthcare systems by triaging patients and providing initial care. To achieve these goals, the chatbot leverages advanced natural language processing and machine learning techniques. The NLP pipeline includes speech recognition, intent detection, entity extraction, and dialogue management, enabling natural, conversational interactions with users. The system also draws upon large medical knowledge bases, clinical guidelines, and machine learning models trained on extensive datasets of medical data to generate accurate diagnoses and treatment recommendations.
 
 ## Solution Requirements
 - Advanced NLP for enhanced user query understanding and response accuracy
