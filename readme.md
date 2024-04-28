@@ -92,8 +92,14 @@ In contrast, our medical chatbot for patients is designed to fill this crucial g
 
 <img width="1335" alt="Screenshot 2024-04-29 at 01 22 27" src="https://github.com/tanziltonmoy/Medical-Chatbot-for-Patients/assets/32629216/d191248e-ac26-4960-8b66-9ba5f2f2021e">
 
+## Dataset Information
 
-## Experimental Design (Methodology)
+We have used the MedQuad dataset from : 
+
+- HuggingFace Dataset: [https://huggingface.co/datasets/Amirkid/MedQuad-dataset](https://huggingface.co/datasets/Amirkid/MedQuad-dataset)
+- Github Dataset: [https://github.com/abachaa/MedQuAD?tab=readme-ov-file](https://github.com/abachaa/MedQuAD?tab=readme-ov-file)
+- 
+## Methodology
 ### Data Collection and Preprocessing
 - Sources: Leverage the MedQuad dataset and supplementary datasets from Huggingface and GitHub.
 - Preprocessing Steps: Perform tokenization, numericalization, and data cleansing to ensure high-quality input data.
@@ -138,9 +144,7 @@ In contrast, our medical chatbot for patients is designed to fill this crucial g
 | 9 | Deployment | | Sonu & Haneesha |
 | 10 | Documentation | | Tanzil & Ashmita |
 
-## Dataset Information
-- HuggingFace Dataset: [https://huggingface.co/datasets/Amirkid/MedQuad-dataset](https://huggingface.co/datasets/Amirkid/MedQuad-dataset)
-- Github Dataset: [https://github.com/abachaa/MedQuAD?tab=readme-ov-file](https://github.com/abachaa/MedQuAD?tab=readme-ov-file)
+
 
 ## Paper Summary by Team Members
 
