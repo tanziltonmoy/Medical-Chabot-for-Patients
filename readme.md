@@ -53,6 +53,8 @@ The key factors to deploy medical chatbots include scalability, availability, da
 - Instant Information: Offers rapid and accurate responses to inquiries
 - Cost Efficiency: Optimizes operations, reduces costs, and streamlines tasks
 
+## Related Works
+
 ## Solution Requirements
 - Advanced NLP for enhanced user query understanding and response accuracy
 - Comprehensive medical knowledge base for up-to-date information
