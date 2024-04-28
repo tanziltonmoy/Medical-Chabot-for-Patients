@@ -100,9 +100,16 @@ We have used the MedQuad dataset from :
 - Github Dataset: [https://github.com/abachaa/MedQuAD?tab=readme-ov-file](https://github.com/abachaa/MedQuAD?tab=readme-ov-file)
 - 
 ## Methodology
-### Data Collection and Preprocessing
+1. Data Collection and Preprocessing
+
+### Datasets
 - Sources: Leverage the MedQuad dataset and supplementary datasets from Huggingface and GitHub.
-- Preprocessing Steps: Perform tokenization, numericalization, and data cleansing to ensure high-quality input data.
+
+### Data Preprocessing 
+- We have used the GPT2TokenizerFast from the transformers library to tokenize text efficiently for processing with the GPT-2 model.
+- Similarly, for the seq2seq model, we’re using NLTK library for carrying out the tokenization.
+- Dataset is further splitted into training, validation and testing pairs on 80%, 10%, and 10% respectively
+
 
 ### Model Development
 - Model Selection and Training: Used  models such as Seq2Seq,T5,Bert,GPT2 models for better performance.
