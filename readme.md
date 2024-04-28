@@ -55,6 +55,12 @@ The key factors to deploy medical chatbots include scalability, availability, da
 
 ## Related Works
 
+1. Infermedica
+
+<img width="1081" alt="Screenshot 2024-04-28 at 22 03 12" src="https://github.com/tanziltonmoy/Medical-Chatbot-for-Patients/assets/32629216/2b1fdc4c-1e9c-44cb-94a5-cdf161912bce">
+
+2. 
+
 ## Solution Requirements
 - Advanced NLP for enhanced user query understanding and response accuracy
 - Comprehensive medical knowledge base for up-to-date information
