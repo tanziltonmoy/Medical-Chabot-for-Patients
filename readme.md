@@ -57,13 +57,20 @@ The key factors to deploy medical chatbots include scalability, availability, da
 
 1. Buoy Health
 
+<img width="1518" alt="Screenshot 2024-04-28 at 22 21 30" src="https://github.com/tanziltonmoy/Medical-Chatbot-for-Patients/assets/32629216/be348f35-cabf-4aa0-b173-87305f544815">
+
 Features: Buoy Health is a conversational AI chatbot designed to provide personalized health assessments and guidance to users. It uses natural language processing to understand users' symptoms, medical history, and concerns, and then offers tailored recommendations such as possible conditions, next steps, and self-care advice. Buoy Health aims to empower users to make informed decisions about their health and navigate the healthcare system more effectively.
 Objectives: The primary objective of Buoy Health is to improve healthcare access and outcomes by leveraging AI technology to deliver accurate and reliable health information and support to users. It aims to reduce unnecessary healthcare visits, alleviate patient anxiety, and facilitate early detection and management of medical conditions.
 NLP Architecture: Buoy Health employs a combination of NLP techniques, including rule-based systems, machine learning models, and medical knowledge graphs. It uses advanced algorithms to analyze user input, extract relevant information, and match symptoms to potential conditions. The architecture may include components such as named entity recognition (NER), intent classification, and dialogue management systems.
 
-2. Babylon Health
+2. Ada Health
 
-Babylon Health's chatbot is designed to provide comprehensive medical assistance through a conversational AI interface. The chatbot features the ability to perform symptom assessment, provide diagnoses, and offer treatment recommendations to users. It also integrates with users' electronic health records and wearable devices, allowing for a more personalized and data-driven approach to healthcare. Additionally, the chatbot offers personalized health coaching and monitoring, empowering users to take a more active role in managing their own healthcare. The key objectives of the Babylon Health chatbot are to improve access to healthcare by providing 24/7 virtual medical assistance, empower users to be more involved in their healthcare, and reduce the burden on healthcare systems by triaging patients and providing initial care. To achieve these goals, the chatbot leverages advanced natural language processing and machine learning techniques. The NLP pipeline includes speech recognition, intent detection, entity extraction, and dialogue management, enabling natural, conversational interactions with users. The system also draws upon large medical knowledge bases, clinical guidelines, and machine learning models trained on extensive datasets of medical data to generate accurate diagnoses and treatment recommendations.
+<img width="1289" alt="Screenshot 2024-04-28 at 22 22 27" src="https://github.com/tanziltonmoy/Medical-Chatbot-for-Patients/assets/32629216/412bf33f-1187-48de-aa33-b00504beb8bc">
+
+
+Features: Ada Health is an AI-driven health assessment platform that offers personalized symptom analysis and health advice through conversational interactions. Users can describe their symptoms to Ada, and the chatbot will ask relevant questions to gather more information and provide possible explanations and recommendations. Ada Health aims to empower individuals to manage their health proactively and seek appropriate medical care when needed.
+Objectives: The main objective of Ada Health is to democratize access to healthcare by leveraging AI technology to deliver comprehensive and reliable health assessments and recommendations to users worldwide. It aims to augment healthcare services, improve health literacy, and promote early intervention and prevention of diseases.
+NLP Architecture: Ada Health utilizes a sophisticated NLP architecture consisting of deep learning models, probabilistic algorithms, and medical knowledge bases. It employs techniques like natural language understanding (NLU), sentiment analysis, and probabilistic reasoning to interpret user input, generate hypotheses, and provide personalized health insights. The architecture may incorporate pretrained language models, medical ontologies, and domain-specific knowledge graphs to enhance accuracy and relevance.
 
 ## Solution Requirements
 - Advanced NLP for enhanced user query understanding and response accuracy
