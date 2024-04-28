@@ -80,13 +80,13 @@ In contrast, our medical chatbot for patients is designed to fill this crucial g
 
 
 ## Solution Requirements
-- Advanced NLP for enhanced user query understanding and response accuracy
-- Comprehensive medical knowledge base for up-to-date information
-- Experiments conducted to identify the optimal model for paraphrasing
-- Seamless integration with web application for enhanced functionality
-- User-friendly interface for improved user experience
-- Incorporate advanced NLP models such as RAG model
-- Research carried out to determine which factors affects the accuracy of the model performance
+
+- Utilize advanced NLP for accurate comprehension of user queries and responses.
+- Integrate with a constantly updated medical knowledge base.
+- Conduct trials to identify the most effective model.
+- Ensure smooth integration with a web application
+- Offer a user-friendly interface to increase user satisfaction.
+
 
 ## System Architecture (Framework)
 
@@ -144,8 +144,9 @@ Both models were trained using these hyperparameters to optimize their performan
 
 
 4. Evaluation
-- Metrics: Use BLEU, ROGUE, MRR, and model-based metrics like BERTScore for a multidimensional evaluation of paraphrases. 
-- Extend evaluation to precision, recall, and F1-score for a robust assessment of medical advice relevance and accuracy.
+
+- Apply a suite of metrics, including BLEU, ROGUE.
+- Expand evaluation to include precision, recall, and F1-score to gauge the relevance and accuracy of medical advice.
 
 5. Result
 
