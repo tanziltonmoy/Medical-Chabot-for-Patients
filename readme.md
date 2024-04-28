@@ -74,6 +74,11 @@ NLP Architecture: Ada Health utilizes a sophisticated NLP architecture consistin
 
 ## Gap Between Related Work
 
+The existing landscape of chatbots available on the market predominantly revolves around facilitating interactions based on users' medical history. These chatbots excel in managing and tracking users' existing medical conditions, enabling communication with healthcare providers, and aiding in the coordination of care based on past medical records. While these functionalities are invaluable for personalized healthcare management, they often fall short in addressing broader aspects of healthcare, such as medical health literacy, accurate diagnosis of new symptoms, and providing reliable information for diverse medical queries.
+
+In contrast, our medical chatbot for patients is designed to fill this crucial gap by focusing on enhancing users' medical health literacy, providing accurate diagnoses, and addressing a wide range of medical queries beyond historical data. We have leveraged advanced language understanding and generation models, such as Seq2Seq and GPT-2, to develop a conversational chatbot capable of comprehensively addressing users' medical-related concerns.
+
+
 ## Solution Requirements
 - Advanced NLP for enhanced user query understanding and response accuracy
 - Comprehensive medical knowledge base for up-to-date information
