@@ -102,30 +102,35 @@ We have used the MedQuad dataset from :
 ## Methodology
 1. Data Collection and Preprocessing
 
-### Datasets
+#### Datasets
 - Sources: Leverage the MedQuad dataset and supplementary datasets from Huggingface and GitHub.
 
-### Data Preprocessing 
+#### Data Preprocessing 
 - We have used the GPT2TokenizerFast from the transformers library to tokenize text efficiently for processing with the GPT-2 model.
 - Similarly, for the seq2seq model, we’re using NLTK library for carrying out the tokenization.
 - Dataset is further splitted into training, validation and testing pairs on 80%, 10%, and 10% respectively
 
 
-### Model Development
-- Model Selection and Training: Used  models such as Seq2Seq,T5,Bert,GPT2 models for better performance.
+2. Model Development
+
+We have trained 2 models:
+- Seq2Seq
+- GPT2
+- T5
+
 - Integrate advanced NLP techniques like validation and perplexity,adaptation validation seq2seq for high quality performance.
 
 
-### Implementation and Testing
+3. Experimental Design
 - After finalizing the better performing model ,utilize it for modeling.
 - We have also Fine-tuned the model on medical question-answering (QA) data with GPT2 model.
 
 
-### Evaluation (Future Task)
+4. Evaluation
 - Metrics: Use BLEU, ROGUE, MRR, and model-based metrics like BERTScore for a multidimensional evaluation of paraphrases. 
 - Extend evaluation to precision, recall, and F1-score for a robust assessment of medical advice relevance and accuracy.
 
-### Deployment
+5. Result
 - Web Application Integration: Develop an user-friendly web application using Dash/Flask, ensuring the chatbot is accessible and easy to navigate.
 
 
