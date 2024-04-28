@@ -113,11 +113,7 @@ We have used the MedQuad dataset from :
 
 2. Model Development
 
-We have trained 2 models:
-- Seq2Seq
-- GPT2
-- T5
-
+- We have trained 2 models: Seq2Seq and GPT2 and we also tried experimented with T5 Model by using Named Entity Recognition to extract medical entities and trained the model.
 - Integrate advanced NLP techniques like validation and perplexity,adaptation validation seq2seq for high quality performance.
 
 
