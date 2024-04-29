@@ -113,7 +113,7 @@ We have used the MedQuad dataset from :
 
 2. Model Development
 
-- We have trained 2 models: Seq2Seq and GPT2 and we also tried experimented with T5 Model by using Named Entity Recognition to extract medical entities and trained the model.
+- We have trained 2 models: Seq2Seq and GPT2.
 - Integrate advanced NLP techniques like validation and perplexity,adaptation validation seq2seq for high quality performance.
 
 
@@ -155,7 +155,7 @@ From comparing the results between the GPT-2 and Seq2Seq models using various ev
 ##### GPT-2 Model:
 - Achieved better scores across multiple evaluation metrics.
 - Demonstrated decent performance overall.
-- Showed relatively poor human evaluation results compared to the automated metrics, indicating a potential discrepancy between machine-generated responses and human perception.
+- Showed relatively better human evaluation results compared to the automated metrics.
 
 ##### Seq2Seq Model:
 - Displayed a decent performance but was outperformed by the GPT-2 model in most evaluation metrics.
