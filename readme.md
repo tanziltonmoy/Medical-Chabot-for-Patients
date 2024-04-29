@@ -14,6 +14,7 @@ This repository details the development of a Medical Chatbot designed to provide
   - [Model Development](#model-development)
   - [Implementation and Testing](#implementation-and-testing)
   - [Evaluation](#evaluation)
+  - [Human Evaluation](#Human-Evaluation)
   - [Deployment](#deployment)
 - [Project Management](#project-management)
   - [Task Distribution](#task-distribution)
@@ -175,6 +176,24 @@ Overall, the GPT-2 model exhibited better performance across various evaluation 
 | 4 | Recall| 0.1485| 0.2485 |
 | 5 | F1-Score | 0.1723| 0.2723 |
 
+## Human Evaluation
+| Category             | Rating (1-5) | Definitions and Criteria                                                                                                   |
+|----------------------|--------------|----------------------------------------------------------------------------------------------------------------------------|
+| Medical Accuracy     | 1-5          | 1 (Poor): Consistently incorrect, misleading. 2 (Fair): Often inaccurate, lacks detail. 3 (Average): Generally accurate, some errors. 4 (Good): Mostly accurate, minor inaccuracies. 5 (Excellent): Highly accurate, detailed, fully reliable. |
+| Guideline Adherence | 1-5          | 1 (Poor): Ignores clinical guidelines. 2 (Fair): Struggles with guidelines, frequent errors. 3 (Average): Generally follows guidelines. 4 (Good): Consistently adheres to guidelines. 5 (Excellent): Perfect adherence, no exceptions. |
+| Clarity              | 1-5          | 1 (Poor): Very confusing, unclear. 2 (Fair): Somewhat understandable, uses complex jargon. 3 (Average): Clear with occasional complex language. 4 (Good): Very clear, minimal jargon. 5 (Excellent): Exceptionally clear, straightforward. |
+| Empathy              | 1-5          | 1 (Poor): Completely detached, inappropriate. 2 (Fair): Limited empathy, often seems indifferent. 3 (Average): Shows basic empathy, somewhat supportive. 4 (Good): Very empathetic and supportive. 5 (Excellent): Exceptionally empathetic, always supportive. |
+| Response Relevance   | 1-5          | 1 (Poor): Responses mostly irrelevant or off-topic. 2 (Fair): Often irrelevant or slightly off-topic. 3 (Average): Mostly relevant, some off-topic responses. 4 (Good): Highly relevant, consistently on-topic. 5 (Excellent): Always relevant, perfectly on-topic. |
+
+| Category             | Rating (1-5) | Evaluator Comments (Doctors' Feedback)                                                                                               |
+|----------------------|--------------|---------------------------------------------------------------------------------------------------------------------------------------|
+| Medical Accuracy     | 2            | "Frequently inaccurate or overly generic, lacking specific medical detail."                                                          |
+| Guideline Adherence | 2            | "Often fails to follow clinical guidelines, especially in complex cases."                                                            |
+| Clarity              | 3            | "Responses are understandable but sometimes use jargon that could confuse patients."                                                   |
+| Empathy              | 2            | "Struggles to convey genuine empathy, often comes off as detached."                                                                   |
+| Response Relevance   | 2            | "Irrelevant or off-topic responses are common, particularly in nuanced discussions."                                                   |
+
+
 
 ## Web Application
 
@@ -202,7 +221,7 @@ Overall, the GPT-2 model exhibited better performance across various evaluation 
 | 5 | Evaluation | | Sonu & Tanzil |
 | 6 | Frontend/Backend | | Haneesha & Ashmita |
 | 8 | Integration/Testing | | Shafi & Tanzil |
-| 9 | Deployment | | Sonu & Haneesha |
+| 9 | Deployment | | Shafi & Shafi |
 | 10 | Documentation | | Tanzil & Ashmita |
 
 
