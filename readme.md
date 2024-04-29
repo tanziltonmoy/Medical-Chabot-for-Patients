@@ -185,6 +185,8 @@ Overall, the GPT-2 model exhibited better performance across various evaluation 
 
 <img src="image/app4.png"> 
 
+[![Demo CountPages alpha](https://share.gifyoutube.com/KzB6Gb.gif)](app/demo_eEV5AvWa (1).mp4)
+
 
 
 
