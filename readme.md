@@ -5,17 +5,17 @@ This repository details the development of a Medical Chatbot designed to provide
 ## Contents
 - [Team Members](#team-members)
 - [Introduction](#introduction)
-- [Problem Statement](#problem-statement)
+- [Problems and Solutions](#problems-and-solutions)
 - [Motivation](#motivation)
 - [Solution Requirements](#solution-requirements)
 - [System Architecture (Framework)](#system-architecture-framework)
 - [Methodology](#methodology)
-  - [Data Collection and Preprocessing](#data-collection-and-preprocessing)
-  - [Model Development](#model-development)
-  - [Implementation and Testing](#implementation-and-testing)
-  - [Evaluation](#evaluation)
+  - [Data Collection and Preprocessing](#1-data-collection-and-preprocessing)
+  - [Model Development](#2-model-development)
+  - [Experimental Design](#3-Experimental-Design)
+  - [Evaluation Metrics Scores](#evaluation-metrics-scores)
   - [Human Evaluation](#human-evaluation)
-  - [Deployment](#deployment)
+- [Deployment](#Deployment)
 - [Project Management](#project-management)
   - [Task Distribution](#task-distribution)
 - [Dataset Information](#dataset-information)
@@ -101,7 +101,7 @@ We have used the MedQuad dataset from :
 - Github Dataset: [https://github.com/abachaa/MedQuAD?tab=readme-ov-file](https://github.com/abachaa/MedQuAD?tab=readme-ov-file)
   
 ## Methodology
-1. Data Collection and Preprocessing
+### 1. Data Collection and Preprocessing
 
 #### Datasets
 - Sources: Leverage the MedQuad dataset and supplementary datasets from Huggingface and GitHub.
@@ -112,17 +112,18 @@ We have used the MedQuad dataset from :
 - Dataset is further splitted into training, validation and testing pairs on 80%, 10%, and 10% respectively
 
 
-2. Model Development
+### 2. Model Development
 
 - We have trained 2 models: Seq2Seq and GPT2.
 - Integrate advanced NLP techniques like validation and perplexity,adaptation validation seq2seq for high quality performance.
 
 
-3. Experimental Design
+
+### 3. Experimental Design
 
 We conducted experiments to train and fine-tune two models, namely GPT-2 and Seq2Seq, for medical question-answering (QA) tasks. Below are the details of the experimental design and hyperparameters used for each model:
 
-a. GPT-2 Model:
+#### a. GPT-2 Model:
 - Training Data: We utilized a dataset consisting of 143,250 samples for training the GPT-2 model.
 - Fine-tuning: The GPT-2 model was fine-tuned on medical QA data to adapt it specifically for medical-related inquiries.
 Hyperparameters for Fine-Tuning:
@@ -131,7 +132,7 @@ Hyperparameters for Fine-Tuning:
 - Weight Decay: 0.01
 - Number of Training Epochs: 3
 
-b. Seq2Seq Model:
+#### b. Seq2Seq Model:
 -Training Data: Similar to the GPT-2 model, we used the same dataset containing 143,250 samples for training the Seq2Seq model.
 Hyperparameters:
 - Hidden Layers: 512
@@ -144,12 +145,12 @@ Hyperparameters:
 Both models were trained using these hyperparameters to optimize their performance for medical question-answering tasks. The choice of hyperparameters was based on experimentation and empirical observations to achieve a balance between model complexity, training efficiency, and task-specific requirements. Additionally, the evaluation strategy for both models involved monitoring performance metrics such as accuracy, loss, and convergence over the specified number of training epochs.
 
 
-4. Evaluation
+### 4. Evaluation
 
 - Apply a suite of metrics, including BLEU, ROGUE.
 - Expand evaluation to include precision, recall, and F1-score to gauge the relevance and accuracy of medical advice.
 
-5. Result
+### 5. Result
 
 From comparing the results between the GPT-2 and Seq2Seq models using various evaluation metrics, including BLEU, ROUGE, precision, recall, and F1-score, we observed the following outcomes:
 
@@ -166,7 +167,7 @@ From comparing the results between the GPT-2 and Seq2Seq models using various ev
 Overall, the GPT-2 model exhibited better performance across various evaluation metrics, indicating its superiority in generating paraphrases and providing medical advice with higher relevance and accuracy. The Seq2Seq model, while performing decently, fell short in comparison to the GPT-2 model, particularly in terms of human evaluation and certain automated metrics.
 
 
- ## Evaluation Metrics Scores
+## Evaluation Metrics Scores
 
 | SN | Metric | Seq2Seq | GPT2 |
 |----|-------|----------|----------|
@@ -195,8 +196,7 @@ Overall, the GPT-2 model exhibited better performance across various evaluation 
 
 
 
-## Web Application
-
+## Deployment
 ##### Chat Interface Functionality
 
 - Allows users to ask questions, send them, and receive responses from the chatbot.
