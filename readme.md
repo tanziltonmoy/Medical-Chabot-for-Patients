@@ -93,6 +93,11 @@ In contrast, our medical chatbot for patients is designed to fill this crucial g
 
 <img src="image/System_Architecture_NLP.png">
 
+### GPT-2 Architecture 
+
+<img width="1129" alt="Screenshot 2024-04-29 at 09 26 55" src="https://github.com/tanziltonmoy/Medical-Chatbot-for-Patients/assets/32629216/d2f3f8c5-ad20-4457-8eeb-8970fc2ae875">
+
+
 ## Dataset Information
 
 We have used the MedQuad dataset from : 
@@ -176,6 +181,33 @@ Overall, the GPT-2 model exhibited better performance across various evaluation 
 | 3 | Precision  | 0.2648 | 0.3647 |
 | 4 | Recall| 0.1485| 0.2485 |
 | 5 | F1-Score | 0.1723| 0.2723 |
+
+1. BLUE Score:
+- The BLUE (Bilingual Evaluation Understudy) score measures the similarity between the generated text and human reference text.
+- The Seq2Seq model achieves a BLUE score of 0.1875, indicating moderate similarity.
+- In contrast, the GPT2 model achieves a higher BLUE score of 0.3056, indicating closer similarity to human reference text compared to Seq2Seq.
+
+2. ROUGE Score:
+- The ROUGE (Recall-Oriented Understudy for Gisting Evaluation) score assesses the overlap between the generated text and human reference text in terms of n-grams.
+- The Seq2Seq model achieves a ROUGE score of 0.4170, indicating a relatively high overlap.
+- However, the GPT2 model's ROUGE score is slightly lower at 0.3934, suggesting a slightly lower overlap with the reference text compared to Seq2Seq.
+
+3. Precision:
+- Precision measures the proportion of relevant information in the generated text.
+- The Seq2Seq model achieves a precision score of 0.2648, indicating that about 26.48% of the generated text is relevant.
+- In contrast, the GPT2 model achieves a higher precision score of 0.3647, indicating that about 36.47% of the generated text is relevant, which is notably higher than Seq2Seq.
+
+4. Recall:
+- Recall measures the proportion of relevant information in the reference text that is captured by the generated text.
+- The Seq2Seq model achieves a recall score of 0.1485, indicating that about 14.85% of relevant information from the reference text is captured.
+- The GPT2 model achieves a higher recall score of 0.2485, indicating that about 24.85% of relevant information from the reference text is captured, which is notably higher than Seq2Seq.
+
+5. F1-Score:
+- The F1-score is the harmonic mean of precision and recall, providing a balanced measure of both metrics.
+- The Seq2Seq model achieves an F1-score of 0.1723.
+- However, the GPT2 model achieves a higher F1-score of 0.2723, indicating better overall performance in terms of both precision and recall compared to Seq2Seq.
+
+In summary, while the Seq2Seq model may excel in certain metrics like ROUGE score, the GPT2 model generally outperforms it across most metrics, including precision, recall, and F1-score, indicating its superior ability to generate text that closely resembles human-written text and captures relevant information from the reference text.
 
 ## Human Evaluation
 | Category             | Rating (1-5) | Definitions and Criteria                                                                                                   |
